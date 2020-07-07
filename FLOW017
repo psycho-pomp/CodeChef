@@ -1,0 +1,4 @@
+# cook your dish here
+t = int(input())
+for i in range(t):
+    print(sorted(list(map(int,input().split())))[1])
